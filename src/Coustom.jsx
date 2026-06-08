@@ -3,7 +3,7 @@ function useCoustom(url) {
      const [user , setUser] = useState([])   
     const [post , setPost] = useState([])
     const [suggestion , setSuggestion] = useState([])
-    const [stories , setStories] = useState(null)
+    const [stories , setStories] = useState(null)    
     useEffect(()=>{
             fetch(url)
             .then((response) => {
@@ -12,7 +12,7 @@ function useCoustom(url) {
             .then((data) => setUser(data))
             .then((val) => setPost(val))
             .then((sugg) => setSuggestion(sugg))
-            .then((story) => setStories(story))
+            .then((story) => setStories(story))          
             .catch((err) => console.log(err))
 
            

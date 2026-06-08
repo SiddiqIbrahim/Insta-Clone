@@ -11,7 +11,7 @@ function App() {
     const [toggle , setToggle] = useState(false)    
    
   return (
-      <div className={`${toggle ? "text-white , bg-black" : "bg-white , text-black"}`}>
+      <div className={`${toggle ? "text-white , bg-black" : "bg-white , text-black"} cursor-pointer`}>
           
            {toggle? 
              <Sun

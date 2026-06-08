@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+.insta{
+  width: 24px;
+  height: 24px;
+}
+.story{
+    height: 60px;
+}
+
+.db{
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.image{
+  width: 400px;
+  height: 300px;
+}
+
+
+.suggestion{
+  margin-top : 20px
+}
+
+.wid{
+    width: 19.2rem;
+}
+
+.story_set{
+  background: linear-gradient(
+    45deg,
+    #f9ce34,
+    #ee2a7b,
+    #6228d7
+  );
+  width: 56px;
+  height: 56px;
+}
+
+.SI{
+    display: flex;    
+    align-items: center;    
+  
+}
+
+.si{
+        height: 90vh;
+        margin-top: 2rem;
+      justify-content: center;
+}
